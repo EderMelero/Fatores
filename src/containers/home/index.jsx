@@ -23,12 +23,12 @@ export default function CalculadoraPeso() {
   };
 
   const fatoresFemea = {
-    dia4: 2.48, 
-    dia7: 4.80,
-    dia14: 2.52,
-    dia21: 1.91,
-    dia28: 1.59,
-    dia35: 1.41,
+    dia4: 2.5, 
+    dia7: 4.86,
+    dia14: 2.48,
+    dia21: 1.87,
+    dia28: 1.57,
+    dia35: 1.40,
     dia42: 1.29
   };
 
