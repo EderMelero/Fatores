@@ -15,9 +15,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // --- ADICIONE ESTE BLOCO ---
   build: {
     outDir: 'docs' // Define a pasta de saída como 'docs'
   }
-  // --- FIM DO BLOCO ---
 })
