@@ -166,9 +166,11 @@ export default function CalculadoraPeso() {
                           <span className="font-semibold text-gray-700">{label}</span>
                         </div>
                         <div className="text-right">
+                          
                           <div className="text-2xl font-bold text-gray-900">
                             {Math.ceil(valor)}g
                           </div>
+
                           {dias > 0 && (
                             <div className="text-xs text-gray-500">
                               +{((valor / resultados.macho.dia0 - 1) * 100).toFixed(0)}%
@@ -214,9 +216,11 @@ export default function CalculadoraPeso() {
                           <span className="font-semibold text-gray-700">{label}</span>
                         </div>
                         <div className="text-right">
+                          
                           <div className="text-2xl font-bold text-gray-900">
                             {Math.ceil(valor)}g
                           </div>
+                          
                           {dias > 0 && (
                             <div className="text-xs text-gray-500">
                               +{((valor / resultados.femea.dia0 - 1) * 100).toFixed(0)}%
@@ -241,13 +245,11 @@ export default function CalculadoraPeso() {
           )}
         </div>
         
-        {/* --- INÍCIO DO RODAPÉ COM O LOGO --- */}
+        {/* --- INÍCIO DO RODAPÉ COM MARCA REGISTRADA --- */}
         <footer className="text-center mt-12 pb-8">
-          <img 
-            src="/logo-marfrig-brf.png" 
-            alt="Logos Marfrig e BRF"
-            className="h-12 w-auto mx-auto opacity-75"
-          />
+          <p className="text-sm text-gray-500">
+            &reg; Éder Melero Júnior
+          </p>
         </footer>
         {/* --- FIM DO RODAPÉ --- */}
 
